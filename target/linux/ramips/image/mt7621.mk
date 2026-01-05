@@ -1166,7 +1166,7 @@ TARGET_DEVICES += d-team_newifi-d2
 
 define Device/d-team_pbr-m1
   $(Device/dsa-migration)
-  IMAGE_SIZE := 32448k
+  IMAGE_SIZE := 65216k
   DEVICE_VENDOR := PandoraBox
   DEVICE_MODEL := PBR-M1
   DEVICE_PACKAGES := kmod-ata-ahci kmod-mt7603 kmod-mt76x2 kmod-mmc-mtk \
